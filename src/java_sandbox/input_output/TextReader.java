@@ -6,9 +6,9 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
- * This class
- * @author christensenst
- */
+* This class provides an example of reading and writing to a text file.
+* @author christensenst
+*/
 public class TextReader
 {
     public static void main(String[] args) throws FileNotFoundException
