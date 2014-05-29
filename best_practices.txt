@@ -2,7 +2,11 @@ Software Development Best Practices:
 
 Deployment:
 
-
+    Chef: Chef gives you a way to describe and automate your infrastructure and processes.
+          You can model your evolving IT infrastructure and applications as code
+          
+    Vagrant: Minimize descrepancies among different environments.
+             Generates virtual development environments from a text file under source control
 
 Testing:
 
