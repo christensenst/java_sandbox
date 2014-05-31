@@ -1,7 +1,7 @@
 package java_sandbox.oca;
 
 /**
- *
+ * Examples from Chapter 3: OCA Java SE 7 Programmer I Study Guide
  */
 public class Chapter03 {
     public static void main(String[] args) {
@@ -15,6 +15,10 @@ public class Chapter03 {
         float reale = .007812f;
         float escudo = .125f;
         
+        /* The + operator is syntactically left-associative, no matter whether it is
+         * determined by type analysis to represent string concatenation or numeric
+         * addition
+         */
         //Prints "0.132812% of one gold doubloon"
         System.out.println(reale + escudo + "% of one gold doubloon");
         
