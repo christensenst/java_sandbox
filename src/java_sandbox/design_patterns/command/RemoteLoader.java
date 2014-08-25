@@ -6,7 +6,8 @@ import java_sandbox.design_patterns.command.receiver.Light;
 import java_sandbox.design_patterns.command.receiver.Stereo;
 
 /**
- *
+ * Creates a number of Command objects that are loaded into the slots of the remote control.
+ * Each command object encapsulates a request of a home automation device.
  */
 public class RemoteLoader {
     
@@ -43,7 +44,9 @@ public class RemoteLoader {
         remoteControl.offButtonWasPushed(1);
         remoteControl.onButtonWasPushed(2);
         remoteControl.offButtonWasPushed(2);
+        remoteControl.undoButtonWasPushed();
         remoteControl.onButtonWasPushed(3);
         remoteControl.offButtonWasPushed(3);
+        remoteControl.undoButtonWasPushed();
     }
 }
